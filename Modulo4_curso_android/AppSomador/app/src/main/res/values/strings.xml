@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Somador</string>
+    <string name="Numero_2">Numero 2</string>
+    <string name="Numero_1">Numero 1</string>
+    <string name="entre_com_um_numero">Entre com um numero</string>
+    <string name="resultado">Resultado</string>
+    <string name="o_resultado_ira_aparecer_aqui">O resultado ira aparecer aqui</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".ActivityInserirPessoa">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="Nome completo"/>
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Dona Maria De Deus"
+        android:inputType="textCapCharacters|textCapSentences|textPersonName"
+        android:maxLength="45"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="CPF"/>
+
+    <EditText
+        android:id="@+id/etCPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:digits="0123456789"
+        android:hint="11111111111"
+        android:inputType="numberDecimal"
+        android:maxLength="11"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="Idade"/>
+
+    <EditText
+        android:id="@+id/etIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:digits="0123456789"
+        android:hint="20"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="Telefone"/>
+
+    <EditText
+        android:id="@+id/etTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="021999999999"
+        android:inputType="phone"
+        android:maxLength="12"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="E-mail"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="email@email.com"
+        android:inputType="textEmailAddress"
+        android:maxLength="45"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btInserirDados"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/botao_reto"
+        android:stateListAnimator="@null"
+        android:textColor="@color/colorPrimary"
+        android:text="Inserir dados" />
+
+    <Button
+        android:id="@+id/btListarRegistros"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/botao_reto"
+        android:stateListAnimator="@null"
+        android:textColor="@color/colorPrimary"
+        android:text="Listar registros" />
+
+    <Button
+        android:id="@+id/btVoltar"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/botao_reto"
+        android:stateListAnimator="@null"
+        android:textColor="@color/colorPrimary"
+        android:text="Voltar" />
+
+</LinearLayout>
